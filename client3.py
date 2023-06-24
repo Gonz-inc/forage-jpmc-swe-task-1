@@ -22,7 +22,7 @@ import json
 import random
 import urllib.request
 
-# Server API URLs
+# Server API URLs.
 QUERY = "http://localhost:8080/query?id={}"
 
 # 500 server request
@@ -62,3 +62,4 @@ if __name__ == "__main__":
             print("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
 
         print("Ratio %s" % getRatio(price, price))
+        

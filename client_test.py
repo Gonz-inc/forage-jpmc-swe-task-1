@@ -22,7 +22,7 @@ class ClientTest(unittest.TestCase):
 
   """ ------------ Add more unit tests ------------ """
   def test_getRatio_(self):
-      """ computes for the ratio to see when price b is zero"""
+      """ computes ratio, with the assumption that price_b is  0 """
       price_b = 0         
       price_a = 120.1
       self.assertEqual(getRatio(price_b, price_a), 0) 
